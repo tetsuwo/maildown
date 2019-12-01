@@ -29,12 +29,14 @@
     "textlint-rule-no-todo": "^1.0.3",
     "textlint-rule-preset-japanese": "^1.3.4",
     "textlint-rule-spellcheck-tech-word": "^4.1.0",
-    "watchify": "^3.9.0"
+    "watchify": "^3.9.0",
+    "webpack-cli": "^3.3.10"
   },
   "dependencies": {
     "@textlint/ast-traverse": "^2.0.8",
     "@textlint/markdown-to-ast": "^6.0.8",
     "textlint": "^10.2.1",
+    "webpack": "^4.41.2",
     "word-table": "^1.0.0"
   },
   "directories": {

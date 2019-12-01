@@ -58,3 +58,7 @@ typings/
 .env
 
 examples/bundle.js
+
+
+# vim
+*.swp
