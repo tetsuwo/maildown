@@ -1,6 +1,6 @@
 # これは？
 
-Markdown から日本企業っぽいメールに変換します。
+Markdown から<s>日本企業っぽいメール</s>プレーンテキストで読みやすいテキストに変換します。
 
 [![dependencies Status](https://david-dm.org/anydown/maildown/status.svg)](https://david-dm.org/anydown/maildown)
 
@@ -43,7 +43,19 @@ console.log(converted);
 
 | オプション名 | 説明             | デフォルト |
 | ------------ | ---------------- | ---------- |
-| lineLength   | １行の最大文字長 | 70         |
+| lineLength   | １行の最大文字長 | `70` |
+| h1PrefixText   | h1 の接頭辞テキスト | `【` |
+| h1SuffixText   | h1 の接尾辞テキスト | `】` |
+| h2PrefixText   | h2 の接頭辞テキスト | `❐ ` |
+| h2SuffixText   | h2 の接尾辞テキスト | `` |
+| h3PrefixText   | h3 の接頭辞テキスト | `◆ ` |
+| h3SuffixText   | h3 の接尾辞テキスト | `` |
+| h4PrefixText   | h4 以降の接頭辞テキスト | `■ ` |
+| h4SuffixText   | h4 以降の接尾辞テキスト | `` |
+| listDefaultSpacer   | リストの左端に挿入するスペーサー | `` |
+| listAdditionalSpacer   | リストに追加するスペーサー | `　` |
+| listPrefixText   | リストの接頭辞テキスト | `・` |
+| listPrefixNumbering   | リスト接頭辞テキスト（ナンバリング） | `（%d）` |
 
 # Who uses maildown
 
